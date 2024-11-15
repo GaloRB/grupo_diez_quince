@@ -12,7 +12,8 @@
     }
     
      :root {
-        --base-color: #a7ce44;
+        --cta-color: #a7ce44;
+        --base-color: #1b202a;
         --text-color: #333;
     }
     
@@ -255,7 +256,7 @@
     /* ------------------ contact bar ---------------------------*/
     
     .container-barra {
-        background-color: var(--base-color);
+        background-color: var(--cta-color);
     }
     
     .container-barra__contact {
@@ -296,7 +297,7 @@
 
     .lista .li-contact {
         margin-left: 4rem;
-        background-color: var(--base-color);
+        background-color: var(--cta-color);
     }
 
     .li-contact a{
@@ -386,7 +387,7 @@
     
     .frame-menu a {
         text-align: center;
-        color: var(--base-color);
+        color: var(--cta-color);
         font-size: 4rem;
     }
     
@@ -452,7 +453,7 @@
     .banner-cotizacion{
         display: flex;
         justify-content: space-evenly;
-        background-color: var(--base-color);
+        background-color: var(--cta-color);
         font-size: 2rem;
         font-weight: 700;
         text-align: center;
@@ -507,7 +508,7 @@
     }
     
     .button-contact{
-        background-color: var(--base-color);
+        background-color: var(--cta-color);
         cursor: pointer;
         margin: 2rem auto;
         display: block;
@@ -521,7 +522,7 @@
 
     button{
         border: none;
-        background-color: var(--base-color);
+        background-color: var(--cta-color);
         color: #000;
         font-size: 2rem;
         font-weight: 700;
@@ -530,7 +531,7 @@
     }
     
     .boton {
-        background-color: var(--base-color);
+        background-color: var(--cta-color);
         cursor: pointer;
         margin: 2rem auto;
         display: block;
@@ -562,7 +563,7 @@
     /* -------------- mision-vision -----------------*/
     
     .mision-vision {
-        background-image: url(../img/grua9.jpeg);
+        background-image: url(../img/vision2.jpg);
         background-size: cover;
         background-position: center;
         background-blend-mode: soft-light;
@@ -578,17 +579,33 @@
     }
     
     .mision-vision h3 {
-        color: var(--base-color);
+        color: var(--cta-color);
         margin-bottom: 0;
         font-size: 2.5rem;
         padding-top: 1rem;
         text-align: center;
     }
+
+    .valores{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .valores ul{
+        padding: 0;
+    }
+
+    .valores ul li{
+        text-align: center;
+        flex: 1 1 auto;
+    }
     
-    .mision-vision p {
-        margin-top: 1rem;
+    .mision-vision p, .valores li {
+        margin: 1rem 2rem;
         font-size: 1.5rem;
-        padding: 1rem 2rem;
+        padding: 1rem 0;
         text-align: justify;
     }
     
@@ -779,12 +796,12 @@
 
     /* ------------- CONTACTO ---------------*/
     
-    .contacto {
-        background-color: #3a3c41;
+    .footer {
+        background-color: var(--base-color);
         padding: auto 2rem;
     }
     
-    .contacto h3 {
+    .footer h3 {
         color: white;
         font-size: 3rem;
         text-align: center;
@@ -793,17 +810,38 @@
         padding-top: 1.5rem;
     }
     
-    .contacto p{
+    .footer p{
         text-align: center;
         color: white;
-        padding: 2rem;
-        font-size: 1.8rem;
+        padding: 0.5rem;
+        font-size: 1.4rem;
         margin-bottom: 0;
         margin-top: 0;
     }
     
-    .contacto a {
+    .footer a {
         color: white;
+    }
+
+    .contacto{
+        margin-top: 3rem;
+        margin-left: 3rem;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .contacto h5{
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+        margin: 0.2rem;
+    }
+
+    .contacto h6{
+        color: white;
+        font-size: 1.8rem;
+        text-align: center;
+        margin: 1rem auto 0.2rem;
     }
     
     .mapa {
@@ -821,24 +859,28 @@
         margin: 3rem auto;
     }
     
-    .contacto h4 {
+    .footer h4 {
         color: white;
         font-size: 3.5rem;
         text-align: center;
         margin: 1rem;
     }
-    .contacto h4 span{
+    .footer h4 span{
         color: white;
         font-size: 2.5rem;
         text-align: center;
     }
-    .contacto span {
+    .footer span {
         display: block;
         color: white;
         text-align: center;
         padding-bottom: 2rem;
     }
     
-    .contacto p:last-of-type {
+    .footer p:last-of-type {
         padding-bottom: 1rem;
+    }
+    
+    .pie{
+        margin-top: 2rem;
     }
