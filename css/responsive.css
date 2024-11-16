@@ -563,6 +563,10 @@
     .servicios__text p{
         font-size: 2rem;
     }
+
+    .serv_diseño{
+        background-attachment: fixed;
+    }
   
     .boton {
         width: 30%;

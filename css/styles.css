@@ -673,7 +673,6 @@
         background-size: cover;
         background-position: center;
         background-blend-mode: soft-light;
-        background-attachment: fixed;
         background-color: #969494;
         overflow-y: auto;
     }
@@ -693,16 +692,18 @@
     .serv1{
         background-color: #e6e6e6;
         flex: 1;
-        margin: 1rem 0.5rem 1rem 1rem;
+        margin: 1rem 0.2rem;
         border-radius: 0.5rem;
+        padding: 3rem;
     }
 
     .serv2{
         background-color: #e6e6e6;
         flex: 1;
-        margin: 1rem 1rem 1rem 0.5rem;
+        margin: 1rem 0.2rem;
         border-radius: 0.5rem;
         text-align: right;
+        padding: 3rem;
     }
 
     .serv_list ul{
@@ -717,15 +718,19 @@
     }
 
     .serv_inge{
-        background-color: #c3c0c0;
+        background-color: #e9e2e2;
     }
 
     .serv_inge > .servicios_container > .serv1{
         background-color: var(--base-color);
+        margin: 1rem 0.2rem 1rem 0.2rem;
+        border-radius: 0.5rem;
     }
 
     .serv_inge > .servicios_container > .serv2{
         background-color: var(--base-color);
+        margin: 1rem 0.2rem 1rem 0.2rem;
+        border-radius: 0.5rem;
     }
 
     .serv_inge > .servicios_container h4{
