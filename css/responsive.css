@@ -49,7 +49,6 @@
     .contacto{
         flex-direction: column;
         margin-left: 0;
-        margin-right: 3rem;
     }
 }
 
@@ -73,7 +72,6 @@
     .contacto{
         flex-direction: column;
         margin-left: 0;
-        margin-right: 3rem;
     }
     .footer .logo{
         text-align: center;
@@ -170,6 +168,10 @@
         text-align: justify;
     }
     /* -------- servicios -----------*/
+
+    .servicios_container{
+        flex-direction: row;
+    }
     .servicios h3 {
         font-size: 4.8rem;
         text-align: center;
@@ -352,7 +354,7 @@
         text-align: justify;
     }
     .boton {
-        background-color: var(--base-color);
+        background-color: var(--cta-color);
         cursor: pointer;
         margin: 2rem auto;
         display: block;
@@ -364,10 +366,11 @@
     }
     
     /* -------- servicios -----------*/
-    .servicios {
-        margin: 2rem;
-        
+    
+    .servicios_container{
+        flex-direction: row;
     }
+
     .servicios h3 {
         font-size: 4.8rem;
         text-align: center;
@@ -544,9 +547,9 @@
         text-align: justify;
     }
     /* -------- servicios -----------*/
-    .servicios {
-        margin: 2rem;
-        
+
+    .servicios_container{
+        flex-direction: row;
     }
 
     .servicios__text{
