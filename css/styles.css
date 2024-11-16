@@ -614,9 +614,7 @@
         background-position: center;
         background-blend-mode: soft-light;
         background-color: #3579c272;
-        height: 85vh;
         color: white;
-        height: 100%;
         overflow-y: auto;
     }
     
@@ -673,7 +671,7 @@
         background-size: cover;
         background-position: center;
         background-blend-mode: soft-light;
-        background-color: #969494;
+        background-color: #969494a0;
         overflow-y: auto;
     }
 
