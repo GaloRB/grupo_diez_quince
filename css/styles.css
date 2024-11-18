@@ -669,7 +669,12 @@
     }
 
     .serv_diseño{
-        background-color: #f4f4f4;
+        background-image: url(../img/diseno.jpg);
+        background-size: cover;
+        background-position: center;
+        background-blend-mode: soft-light;
+        background-color: #f4f4f496;
+        overflow-y: auto;
     }
 
     .servicios_container{
@@ -713,12 +718,7 @@
     }
 
     .serv_inge{
-        background-image: url(../img/diseño.jpg);
-        background-size: cover;
-        background-position: center;
-        background-blend-mode: soft-light;
         background-color: #f4f4f496;
-        overflow-y: auto;
     }
 
     .serv_inge > .servicios_container > .serv1{
