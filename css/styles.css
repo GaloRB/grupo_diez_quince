@@ -639,11 +639,13 @@
 
     .valores ul{
         padding: 0;
+        margin: 0;
     }
 
     .valores ul li{
         text-align: center;
         flex: 1 1 auto;
+        margin: 0 1rem;
     }
     
     .mision-vision p, .valores li {
@@ -667,11 +669,7 @@
     }
 
     .serv_diseño{
-        background-image: url(../img/diseño.jpg);
-        background-size: cover;
-        background-position: center;
-        background-blend-mode: soft-light;
-        overflow-y: auto;
+        background-color: #f4f4f4;
     }
 
     .servicios_container{
@@ -715,7 +713,12 @@
     }
 
     .serv_inge{
-        background-color: #e9e2e2;
+        background-image: url(../img/diseño.jpg);
+        background-size: cover;
+        background-position: center;
+        background-blend-mode: soft-light;
+        background-color: #f4f4f496;
+        overflow-y: auto;
     }
 
     .serv_inge > .servicios_container > .serv1{

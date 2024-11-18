@@ -167,6 +167,10 @@
         padding: 1.2rem 1rem;
         text-align: justify;
     }
+
+    .valores ul li{
+        margin: 1rem;
+    }
     /* -------- servicios -----------*/
 
     .servicios_container{
@@ -352,6 +356,10 @@
     .mision-vision p, .valores li {
         font-size: 2.2rem;
         text-align: justify;
+    }
+
+    .valores ul li{
+        margin: 1rem;
     }
     .boton {
         background-color: var(--cta-color);
@@ -546,6 +554,10 @@
         font-size: 2.2rem;
         text-align: justify;
     }
+
+    .valores ul li{
+        margin: 1rem 4rem;
+    }
     /* -------- servicios -----------*/
 
     .servicios_container{
@@ -564,7 +576,7 @@
         font-size: 2rem;
     }
 
-    .serv_diseño{
+    .serv_inge{
         background-attachment: fixed;
     }
   
