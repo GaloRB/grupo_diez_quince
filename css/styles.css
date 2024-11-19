@@ -466,9 +466,13 @@
         top: 0;
     }
     /* ------- banner -----------*/
-    
+
+    .height__banner{
+        background-color: var(--cta-color);
+    }
 
     .banner {
+        clip-path: polygon(50.2% 0%, 100% 0%, 100% 45.3%, 97.9% 91.3%, 67.7% 100%, 32.2% 100%, 2.5% 91.3%, 0% 42%, 0% 0%);
         display: flex;
         align-items: center;
         flex-direction: column;
