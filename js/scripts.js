@@ -129,6 +129,16 @@ function DownloadFromUrl(fileURL, fileName) {
     hero.style.height = heightHero + 'px';
 }
 
+    /* // Seleccionar el elemento con fondo
+    const backgroundElement = document.querySelector('.serv_inge');
+
+    window.addEventListener('scroll', () => {
+    // Calcular la posición desplazada basada en la posición de desplazamiento de la ventana
+    const offset = window.scrollY;
+
+    // Ajustar la posición del fondo
+    backgroundElement.style.backgroundPositionY = `${offset * 0.5}px`;
+    }); */
 
   /*   let currentIndex = 0;
 

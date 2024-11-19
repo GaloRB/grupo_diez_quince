@@ -15,6 +15,7 @@
         --cta-color: #a7ce44;
         --base-color: #1b202a;
         --text-color: #333;
+        --base-color-transp: #1b202adb
     }
     
     body {
@@ -669,12 +670,7 @@
     }
 
     .serv_diseño{
-        background-image: url(../img/diseno.jpg);
-        background-size: cover;
-        background-position: center;
-        background-blend-mode: soft-light;
-        background-color: #f4f4f496;
-        overflow-y: auto;
+        background-color: #f4f4f496; 
     }
 
     .servicios_container{
@@ -718,17 +714,26 @@
     }
 
     .serv_inge{
-        background-color: #f4f4f496;
+        background-image: url(../img/red_electrica_2.jpg);
+        background-size: cover;
+        background-position: center;
+        background-blend-mode: soft-light;
+        background-color: #413e3e54;
+        overflow-y: auto;
+    }
+
+    .serv_inge h3{
+        color: #fff;
     }
 
     .serv_inge > .servicios_container > .serv1{
-        background-color: var(--base-color);
+        background-color: var(--base-color-transp);
         margin: 1rem 0.2rem 1rem 0.2rem;
         border-radius: 0.5rem;
     }
 
     .serv_inge > .servicios_container > .serv2{
-        background-color: var(--base-color);
+        background-color: var(--base-color-transp);
         margin: 1rem 0.2rem 1rem 0.2rem;
         border-radius: 0.5rem;
     }
@@ -737,11 +742,8 @@
         color: var(--cta-color);
     }
 
-    .serv_inge > .servicios_container > .serv1 > .serv_list li{
-       color: #fff;
-    }
-
-    .serv_inge > .servicios_container > .serv2 > .serv_list li{
+    .serv_inge > .servicios_container > .serv1 .serv_list li,  
+    .serv_inge > .servicios_container > .serv2  .serv_list li{
        color: #fff;
     }
 

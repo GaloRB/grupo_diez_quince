@@ -181,6 +181,20 @@
         text-align: center;
         margin-bottom: 0;
     }
+
+    .serv_diseño > .servicios_container > .serv1 > .serv_list > ul{
+        min-height: 23.4rem;
+    }
+
+    .serv_inge{
+        background-image: url(../img/red_electrica.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        background-blend-mode: soft-light;
+        background-color: #413e3e54;
+        overflow-y: auto;
+    }
     /* .servicios__list {
         margin-right: 10rem;
     }
@@ -384,11 +398,23 @@
         text-align: center;
     }
 
+    .serv_inge{
+        background-image: url(../img/red_electrica.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        background-blend-mode: soft-light;
+        background-color: #413e3e54;
+        overflow-y: auto;
+    }
+
     .servicios__text p{
         font-size: 2rem;
     }
     
-  
+    .serv_diseño > .servicios_container > .serv1 > .serv_list > ul{
+        min-height: 19.4rem;
+    }
 
     .distribuidores__text{
         margin: auto 4rem;
@@ -576,9 +602,20 @@
         font-size: 2rem;
     }
 
-    .serv_inge{
-        background-attachment: fixed;
+    .serv_diseño > .servicios_container > .serv1 > .serv_list > ul{
+        min-height: 14rem;
     }
+
+    .serv_inge{
+        background-image: url(../img/red_electrica.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        background-blend-mode: soft-light;
+        background-color: #413e3e54;
+        overflow-y: auto;
+    }
+
   
     .boton {
         width: 30%;
