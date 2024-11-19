@@ -670,7 +670,8 @@
     }
 
     .serv_diseño{
-        background-color: #f4f4f496; 
+        padding: 1rem;
+        background: #d4d4dc;
     }
 
     .servicios_container{
@@ -690,7 +691,6 @@
         flex: 1;
         margin: 1rem 0.2rem;
         border-radius: 0.5rem;
-        padding: 3rem;
     }
 
     .serv2{
@@ -699,7 +699,6 @@
         margin: 1rem 0.2rem;
         border-radius: 0.5rem;
         text-align: right;
-        padding: 3rem;
     }
 
     .serv_list ul{
@@ -714,6 +713,7 @@
     }
 
     .serv_inge{
+        padding: 1rem;
         background-image: url(../img/red_electrica_2.jpg);
         background-size: cover;
         background-position: center;
@@ -745,6 +745,11 @@
     .serv_inge > .servicios_container > .serv1 .serv_list li,  
     .serv_inge > .servicios_container > .serv2  .serv_list li{
        color: #fff;
+    }
+
+    .serv_geo{
+        padding: 1rem;
+        background: #d4d4dc;
     }
 
     .servicios__equipo{
