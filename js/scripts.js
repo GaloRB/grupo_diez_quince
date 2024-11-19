@@ -37,26 +37,23 @@ function mostrarScroll() {
     let scrollTop = document.documentElement.scrollTop;
     for (var i = 0; i < animacion.length; i++) {
         let alturaanimacion = animacion[i].offsetTop;
-        if (alturaanimacion - 400 < scrollTop) {
+        if (alturaanimacion - 600 < scrollTop) {
             animacion[i].style.opacity = 1;
             animacion[i].classList.add("mostrar-arriba");
         }
     }
 }
 
-let animacionServUp = document.querySelectorAll(".animacion-arriba-servicios");
-
 function mostrarScroll3() {
     let scrollTop = document.documentElement.scrollTop;
     for (var i = 0; i < animacionServUp.length; i++) {
         let alturaanimacion = animacionServUp[i].offsetTop;
-        if (alturaanimacion - 400 < scrollTop) {
+        if (alturaanimacion - 550 < scrollTop) {
             animacionServUp[i].style.opacity = 1;
             animacionServUp[i].classList.add("mostrar-arriba");
         }
     }
 }
-
 
 let animacionAbajo = document.querySelectorAll(".animacion-abajo");
 
@@ -64,20 +61,18 @@ function mostrarScroll1() {
     let scrollTop = document.documentElement.scrollTop;
     for (var i = 0; i < animacionAbajo.length; i++) {
         let alturaanimacion = animacionAbajo[i].offsetTop;
-        if (alturaanimacion - 400 < scrollTop) {
+        if (alturaanimacion - 550 < scrollTop) {
             animacionAbajo[i].style.opacity = 1;
             animacionAbajo[i].classList.add("mostrar-abajo");
         }
     }
 }
 
-let animacionServDown = document.querySelectorAll(".animacion-abajo-servicios");
-
 function mostrarScroll4() {
     let scrollTop = document.documentElement.scrollTop;
     for (var i = 0; i < animacionServDown.length; i++) {
         let alturaanimacion = animacionServDown[i].offsetTop;
-        if (alturaanimacion - 400 < scrollTop) {
+        if (alturaanimacion - 550 < scrollTop) {
             animacionServDown[i].style.opacity = 1;
             animacionServDown[i].classList.add("mostrar-abajo");
         }
@@ -110,6 +105,7 @@ function mostrarScroll5() {
     }
 }
 
+/* ------ Descargar archivo ------------- */
 function DownloadFromUrl(fileURL, fileName) {
     var link = document.createElement('a');
     link.href = fileURL;
@@ -119,14 +115,26 @@ function DownloadFromUrl(fileURL, fileName) {
     document.body.removeChild(link);
   } 
 
-  function screenHeight(){
-    const contenedor = document.querySelector('.container-barra');
-    const altoContenedor = contenedor.offsetHeight;
+/* -------- fijar banner a pantalla -------------- */
+function screenHeight(){
+const contenedor = document.querySelector('.container-barra');
+const altoContenedor = contenedor.offsetHeight;
 
-    const hero = document.querySelector('.banner');
-    let screenHeight = window.innerHeight || document.documentElement.clientHeight;
-    let heightHero = screenHeight - altoContenedor;
-    hero.style.height = heightHero + 'px';
+const hero = document.querySelector('.banner');
+let screenHeight = window.innerHeight || document.documentElement.clientHeight;
+let heightHero = screenHeight - altoContenedor;
+hero.style.height = heightHero + 'px';
+}
+
+
+/* -------------- banner path ------------------ */
+function banner_path(){
+const burguer = document.querySelector('.barras');
+const banner = document.querySelector('.banner');
+
+burguer.addEventListener('click', ()=>{
+    banner.classList.toggle('banner_path');
+})
 }
 
     /* // Seleccionar el elemento con fondo
@@ -184,6 +192,7 @@ function DownloadFromUrl(fileURL, fileName) {
 
 
 document.addEventListener("DOMContentLoaded", screenHeight);
+document.addEventListener("DOMContentLoaded", banner_path);
 
 window.addEventListener('scroll', mostrarScroll);
 window.addEventListener('scroll', mostrarScroll1);

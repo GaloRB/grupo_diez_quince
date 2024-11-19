@@ -472,7 +472,6 @@
     }
 
     .banner {
-        clip-path: polygon(50.2% 0%, 100% 0%, 100% 45.3%, 97.9% 91.3%, 67.7% 100%, 32.2% 100%, 2.5% 91.3%, 0% 42%, 0% 0%);
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -483,6 +482,10 @@
         background-blend-mode: soft-light;
         background-color: #35353595;
         /* height: 76.5vh; */
+    }
+
+    .banner_path{
+        clip-path: polygon(50.2% 0%, 100% 0%, 100% 45.3%, 97.9% 91.3%, 67.7% 100%, 32.2% 100%, 2.5% 91.3%, 0% 42%, 0% 0%);
     }
 
     .banner h1{
@@ -588,7 +591,6 @@
         display: block;
         border: none;
         padding: 1rem;
-        width: 50%;
         border-radius: 2px;
         box-shadow: 5px 7px 7px #999;
         transition: all 0.5s ease;
@@ -695,6 +697,7 @@
         flex: 1;
         margin: 1rem 0.2rem;
         border-radius: 0.5rem;
+        text-align: center;
     }
 
     .serv2{
@@ -702,7 +705,7 @@
         flex: 1;
         margin: 1rem 0.2rem;
         border-radius: 0.5rem;
-        text-align: right;
+        text-align: center;
     }
 
     .serv_list ul{
@@ -753,7 +756,15 @@
 
     .serv_geo{
         padding: 1rem;
-        background: #d4d4dc;
+        background: linear-gradient(to bottom, #d4d4dc 70%, #ffffff 100%);
+    }
+
+    .serv_img{
+        text-align: center;
+    }
+
+    .serv_img img{
+        border-radius: 2rem;
     }
 
     .servicios__equipo{
@@ -812,7 +823,7 @@
         width: 100%;
         display: inline-block;
         transition: all 0.5s ease;
-        height: 20rem;
+        height: auto;
     }
 
     .servicios__servicios{
@@ -896,8 +907,13 @@
         padding: 2rem;
     }
     .proyectos__title{
-        margin-top: 3rem;
+        margin-top: 4rem;
     }
+
+    .proyectos__container{
+        margin: 7rem 1rem auto 1rem;
+    }
+
     .proyectos__container p{
         font-size: 1.6rem;
         color: black;
@@ -917,7 +933,7 @@
 
     .proyectos h4{
         color: black;
-        font-size: 3.5rem;
+        font-size: 2.8rem;
         text-align: center;
         margin: 0;
     }

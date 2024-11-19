@@ -158,7 +158,7 @@
     .mision-vision h3 {
         color: var(--cta-color);
         margin-bottom: 0;
-        font-size: 2.8rem;
+        font-size: 2.3rem;
         text-align: center;
     }
     .mision-vision p, .valores li {
@@ -177,7 +177,7 @@
         flex-direction: row;
     }
     .servicios h3 {
-        font-size: 4.8rem;
+        font-size: 2.8rem;
         text-align: center;
         margin-bottom: 0;
     }
@@ -211,6 +211,10 @@
         font-weight: 700;
         margin: 2rem;
         font-size: 3rem;
+    }
+
+    .proyectos__container{
+        margin: 7rem 5rem auto 5rem;
     }
     .distribuidores p {
         text-align: center;
@@ -363,7 +367,7 @@
     .mision-vision h3 {
         color: var(--cta-color);
         margin-bottom: 0;
-        font-size: 3rem;
+        font-size: 2.6rem;
         padding-top: 1rem;
         text-align: center;
     }
@@ -394,7 +398,7 @@
     }
 
     .servicios h3 {
-        font-size: 4.8rem;
+        font-size: 3.2rem;
         text-align: center;
     }
 
@@ -416,6 +420,10 @@
         min-height: 19.4rem;
     }
 
+    .proyectos__container{
+        margin: 7rem 5rem auto 5rem;
+    }
+
     .distribuidores__text{
         margin: auto 4rem;
     }
@@ -425,7 +433,7 @@
     }
     .card img {
         width: 100%;
-        max-height: 35rem;
+        height: 35rem;
         object-fit: cover;
         transition: all 0.3s ease;
     }
@@ -572,7 +580,7 @@
     .mision-vision h3 {
         color: var(--cta-color);
         margin-bottom: 0;
-        font-size: 3.8rem;
+        font-size: 2.8rem;
         text-align: center;
         padding-top: 1rem;
     }
@@ -594,7 +602,7 @@
         margin: auto 10rem;
     }
     .servicios h3 {
-        font-size: 4.2rem;
+        font-size: 3.2rem;
         text-align: center;
         margin-bottom: 0;
     }
@@ -616,6 +624,10 @@
         overflow-y: auto;
     }
 
+    .proyectos__container{
+        margin: 7rem 5rem auto 5rem;
+    }
+
   
     .boton {
         width: 30%;
@@ -626,6 +638,12 @@
         text-align: center;
     }
     
+    .card img {
+        width: 100%;
+        height: 35rem;
+        object-fit: cover;
+        transition: all 0.3s ease;
+    }
    
     .servicios__promo p {
         text-align: center;
@@ -647,11 +665,6 @@
 
     .distribuidores__text p{
         font-size: 2rem;
-    }
-
-
-    .proyectos__container{
-        margin: auto 10rem;
     }
 
     
