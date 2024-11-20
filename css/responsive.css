@@ -339,6 +339,7 @@
     /* nosotros*/
     .nosotros{
         flex-direction: row;
+        background-attachment: fixed;
     }
     .nosotros__text{
         flex-basis: 60%;
@@ -364,6 +365,10 @@
     }
     
     /* mision-vision*/
+    .mision-vision{
+        background-attachment: fixed;
+    }
+
     .mision-vision h3 {
         color: var(--cta-color);
         margin-bottom: 0;
@@ -418,6 +423,10 @@
     
     .serv_diseño > .servicios_container > .serv1 > .serv_list > ul{
         min-height: 19.4rem;
+    }
+
+    .proyectos{
+        background-attachment: fixed;
     }
 
     .proyectos__container{
@@ -553,6 +562,7 @@
     /* nosotros*/
     .nosotros{
         flex-direction: row;
+        background-attachment: fixed;
     }
     .nosotros__text{
         flex-basis: 60%;
@@ -622,6 +632,10 @@
         background-blend-mode: soft-light;
         background-color: #413e3e54;
         overflow-y: auto;
+    }
+
+    .proyectos{
+        background-attachment: fixed;
     }
 
     .proyectos__container{
