@@ -489,10 +489,19 @@
     }
 
     .banner h1{
-        color: white;
+        /* color: white;
         font-size: 3rem;
         text-align: center;
-        text-shadow: 20px 10px 8px black;
+        text-shadow: 20px 10px 8px black; */
+        text-align: left; 
+font-family: Arial Black; 
+font-weight: bold; font-size: 30px; 
+background: #fff; 
+-webkit-background-clip: text; 
+-moz-background-clip: text; 
+background-clip: text; 
+color: transparent; 
+text-shadow: 2px 4px 4px rgba(176, 176, 176, 0.524),0px -1px 1px rgba(255, 255, 255, 0.3);
     }
 
     .banner h2{
@@ -941,9 +950,22 @@
     }
     .proyectos h3 {
         color: var(--text-color);
-        font-size: 3.5rem;
+        font-size: 4rem;
         text-align: center;
         margin: 0;
+    }
+
+    .proyectos__container h3 {
+        color: var(--text-color);
+        font-size: 3rem;
+        text-align: center;
+        margin: 0;
+        border-bottom: 4px solid var(--cta-color);
+        padding-bottom: 0.5rem;
+        display: inline-block;
+        margin: 0 auto;
+        letter-spacing: 10px;
+        text-transform: uppercase;
     }
 
     .proyectos h4{

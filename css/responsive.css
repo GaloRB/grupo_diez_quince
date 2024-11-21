@@ -417,6 +417,10 @@
         overflow-y: auto;
     }
 
+    .servicios__text_header p{
+        font-size: 2rem;
+    }
+
     .servicios__text p{
         font-size: 2rem;
     }
@@ -430,7 +434,11 @@
     }
 
     .proyectos__container{
-        margin: 7rem 5rem auto 5rem;
+        margin: 7rem 6rem auto 6rem;
+    }
+
+    .proyectos__container h3 {
+        font-size: 4rem;
     }
 
     .distribuidores__text{
@@ -608,6 +616,10 @@
         flex-direction: row;
     }
 
+    .servicios__text_header p{
+        font-size: 2rem;
+    }
+
     .servicios__text{
         margin: auto 10rem;
     }
@@ -639,9 +651,12 @@
     }
 
     .proyectos__container{
-        margin: 7rem 5rem auto 5rem;
+        margin: 7rem 6rem auto 6rem;
     }
 
+    .proyectos__container h3 {
+        font-size: 4rem;
+    }
   
     .boton {
         width: 30%;
