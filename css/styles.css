@@ -338,6 +338,11 @@
     .ul_container{
         margin-right: 10rem;
     }
+
+    .lista li{
+        text-align: center;
+    }
+
     .lista a{
         color: white;
     }
@@ -384,6 +389,7 @@
         max-height: 11rem;
         object-fit: contain;
         padding: 0.5rem 0;
+        display: block;
     }
 
     /* .logo-hero {
@@ -1056,6 +1062,10 @@ text-shadow: 2px 4px 4px rgba(176, 176, 176, 0.524),0px -1px 1px rgba(255, 255, 
         color: white;
         text-align: center;
         padding-bottom: 2rem;
+    }
+
+    .footer .logo img{
+        display: inline-block;
     }
     
     .footer p:last-of-type {
